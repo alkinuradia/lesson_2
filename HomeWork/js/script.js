@@ -56,7 +56,7 @@ let x = 1;
 let d = 10;
 let c = 13;
 
-if (a > 10) {
+if (x > 10) {
     console.log(x - 5);
 } else {
     console.log(x + 5);
