@@ -146,10 +146,21 @@ switch (number) {
 //Поверніть користувачу сумму цих чисел
 
 
-const num = prompt("Введіть тризначне число");
 
-if (num >= 100 && num <= 999) {
-    alert(num * 2);
-} else {
-    alert(`Некорретне число. Введіть тризначне число ще раз!`);
-}
+console.log("======")
+
+
+let arr = [1, 2, 3, 4, 5];
+
+
+let result = arr.reduce((sum, current) => sum + current, 0);
+alert( result );
+// let num = arr;
+
+//  num = prompt("Введіть тризначне число");
+// let red = arr((summ, item) => summ + item);
+// if (num >= 100 && num <= 999) {
+//     alert( red);
+// } else {
+//     alert(`Некорретне число. Введіть тризначне число ще раз!`);
+// }
